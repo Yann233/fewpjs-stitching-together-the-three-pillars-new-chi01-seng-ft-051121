@@ -11,8 +11,8 @@ let colorStates = {
 };
 
 // STEP 1: This code is what lets JavaScript find the elements that we want to make clickable.
-// Without JavaScript, clicking on these heart shapes does nothing. Uncomment
-// this code and refresh the demo page.
+// Without JavaScript, clicking on these heart shapes does nothing. 
+// Uncomment this code and refresh the demo page.
 
 let articleHearts = document.querySelectorAll(".like-glyph");
 
@@ -36,8 +36,8 @@ function likeCallback(e) {
 
 // STEP 3: In order for the call to the server and the update of the screen to
 // work, the elements we identify in STEP 1 need to be told to run that update
-// code when an "event" is fired. That's Pillar 2, event handling. Uncomment
-// this code.
+// code when an "event" is fired. That's Pillar 2, event handling. 
+//Uncomment this code.
 
 for (let glyph of articleHearts) {
   glyph.addEventListener("click", likeCallback);
